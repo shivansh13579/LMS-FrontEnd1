@@ -4,6 +4,7 @@ import './App.css'
 import Footer from './Components/Footer'
 import HomeLayout from './Layouts/HomeLayout'
 import HomePage from './Pages/HomePage'
+import AboutUs from './Pages/AboutUs'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
    <Routes>
     {<Route path='/' element={<HomePage />}></Route>}
+    {<Route path='/about' element={<AboutUs />}></Route>}
    </Routes>
 
    {/* <HomeLayout /> */}
