@@ -16,10 +16,6 @@ function App() {
     {<Route path='/' element={<HomePage />}></Route>}
     {<Route path='/about' element={<AboutUs />}></Route>}
    </Routes>
-
-   {/* <HomeLayout /> */}
-
-
     </>
   )
 }
